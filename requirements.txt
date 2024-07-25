@@ -1,0 +1,12 @@
+pandas
+numpy
+openai 
+tiktoken 
+pypdf
+fpdf2
+faiss-cpu
+langchain
+langchain_experimental
+langchain_openai
+langchain-community
+loguru
