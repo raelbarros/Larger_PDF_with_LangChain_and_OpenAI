@@ -12,9 +12,7 @@ from tqdm import tqdm
 from loguru import logger
 
 # FIXME:
-os.environ["OPENAI_API_KEY"] = (
-    "sk-None-p9ffPPgzyXVw4yHAcFOuT3BlbkFJiH7T2cTVFg0pWNEsC7ee"
-)
+os.environ["OPENAI_API_KEY"] = ""
 
 
 class MLHandler:
