@@ -80,3 +80,14 @@ Devido as restrições de tempo, não foi possivel implementar todas funcionalid
 4. **Interagração com o Data Mesh:** Integração com o Data Mesh para de viabilizar visões analiticas mais completas e disponibilidade de dados com outras equipes, caso seja necessario.
 
 5. **Visualização:** Integração com ferramentas de data viz como Tableau e Quicksight para criação de Dashboard personalizados.
+
+!!! COLOCAR DIAGRAMA
+
+
+## Limitações
+
+- Descrever prompt
+
+## Referencias
+
+- colocar links
