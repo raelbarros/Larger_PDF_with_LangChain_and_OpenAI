@@ -19,17 +19,18 @@ Recomenda-se a criação de um ambiente virtual (venv) para instalações dos pa
   pip install -r requirements.txt
 ```
     
-#### Usando via arquivo .py
+### Usando via arquivo .py
 
 Acessar o arquivo `dasdas` alterar a variavel `asdas` para o caminho do PDF desejado.
 
 !!!! COLOCAR PRINT
 
-#### Usando via streamlit [BETA]
+### Usando via streamlit [BETA]
 
-Desenvolvemos uma interface visual utilizando o Streamlit facilidando o uso da aplicação.
 > [!WARNING]  
 > Essa funcionalidade ainda está em beta.
+
+Desenvolvemos uma interface visual utilizando o Streamlit facilidando o uso da aplicação.
 
 Para inicializar o streamlit execute o seguinte comando:
 
