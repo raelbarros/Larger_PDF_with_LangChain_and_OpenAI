@@ -10,3 +10,5 @@ langchain_experimental
 langchain_openai
 langchain-community
 loguru
+matplotlib 
+scikit-learn
