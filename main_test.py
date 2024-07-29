@@ -29,7 +29,7 @@ list_embedding = ml_handler.get_embeddings([doc.page_content for doc in semantic
 # Organizando os dados.
 logger.info("Organizando os dados")
 
-# TODO: Verificar necessidade do DF
+# TODO: DF para tratamento dos dados
 # # Cria df com os dados semanticos e os dados de embedding para facilidar a manipulacao dos dados
 # list_content_page = [doc.page_content for doc in semantic_docs]
 # df = pd.DataFrame(list_content_page, columns=['page_content'])
