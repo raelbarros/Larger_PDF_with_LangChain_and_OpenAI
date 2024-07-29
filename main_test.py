@@ -56,11 +56,13 @@ organized_docs = [semantic_docs[i] for i in sorted_array]
 
 # Obtendo resumo de cada documento.
 user_prompt = """
-    Vc ira receber um documento de receita de um veterinario, vc poderia me dizer qual o consultorio veterinario que fez ele ?
+    Me explique esse documento por favor
 """
 final_text = ml_handler.ask_gpt(user_prompt, organized_docs)
 
 logger.debug(f"Resposta: {final_text}")
-pdf_handler.create_pdf(final_text, 'resposta_gpt.pdf')
+
+pdf_out_path = 'resposta_gpt.pdf'
+pdf_handler.create_pdf(final_text, pdf_out_path)
 
 logger.success("Processo finalizado!")
