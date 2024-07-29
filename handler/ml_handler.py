@@ -11,7 +11,8 @@ from handler.utils import chunk_text
 from tqdm import tqdm
 from loguru import logger
 
-# FIXME:
+
+# FIXME: Chave OpenAI
 os.environ["OPENAI_API_KEY"] = ""
 
 

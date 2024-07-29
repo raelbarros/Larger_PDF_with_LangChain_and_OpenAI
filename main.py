@@ -10,7 +10,9 @@ import numpy as np
 pdf_handler = PDFHandler()
 
 # Iniciando leitura do PDF
-pdf_doc = pdf_handler.read_pdf(r"./data/teste.pdf")
+pdf_in_path = './data/input/pdf_sample.pdf'
+pdf_doc = pdf_handler.read_pdf(pdf_in_path)
+
 # Convertendo paginas em string
 text_doc = concat_pages_to_text(pdf_doc)
 

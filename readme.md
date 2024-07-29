@@ -18,7 +18,8 @@ projeto/
 │   ├── pdf_handler.py      # Funções para manipulação de documentos PDF
 │   └── utils.py            # Funções auxiliares do software
 ├── main.py                 # Instruções principais
-├── streamlit               # Aplicação do streamlit
+├── streamlit.py            # Aplicação do streamlit
+├── dev.ipynb               # Notebook de experimentação
 ├── requirements.txt        # Pacotes do projeto
 └── README.md               # Documentação do Projeto
 
