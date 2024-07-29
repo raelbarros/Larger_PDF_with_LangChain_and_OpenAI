@@ -46,7 +46,7 @@ Para inicializar o streamlit execute o seguinte comando:
 
 ```bash
 streamlit run streamlit.py
-``
+```
 
 ## Logica
 
