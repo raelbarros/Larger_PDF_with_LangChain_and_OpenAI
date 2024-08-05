@@ -54,7 +54,9 @@ sorted_array = np.sort(near_doc_index, axis=0)
 sorted_array = sorted_array.flatten()
 
 # agrupamento dos documentos por cluster
-organized_docs = [semantic_docs[i] for i in sorted_array]
+num_docs = len(semantic_docs)
+valid_indice = [i for i in sorted_array if i < num_docs]
+organized_docs = [semantic_docs[i] for i in valid_indice]
 
 # Obtendo resumo de cada documento.
 user_prompt = """
